@@ -11,6 +11,14 @@ const config = {
       { test: /\.js$/, use: 'babel-loader', exclude: /node_modules/ },
     ],
   },
+
+  // Toutes les options servant au webpack-dev-server. Toutes les
+  // clefs sont dispos ici : https://webpack.js.org/configuration/dev-server/
+  devServer: {
+    publicPath: '/dist/',
+    compress: true,
+    port: 8080,
+  },
 };
 
 
