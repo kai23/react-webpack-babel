@@ -18,12 +18,11 @@
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^4.0.0",
     "eslint-plugin-react": "^6.10.3",
-    "webpack": "^2.4.1"
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "scripts": {
-    "build": "webpack --config webpack/dev.js",
-    "start": "http-server .",
-    "dev": "npm run build && npm run start"
+    "dev": "webpack-dev-server --config webpack/dev.js"
   },
   "keywords": [],
   "author": "",
