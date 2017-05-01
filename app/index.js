@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
 
 import Home from './Home/Home.js';
-import './app.css';
+import './app.scss';
 
 const render = (Component) => {
   ReactDOM.render(

@@ -29,10 +29,11 @@ const config = {
         - style-loader va permettre de mettre une balise "style" en haut
         de notre app. C'est compatible avec le HMR, c'est pourquoi on le préfère en dev.
         - css-loader va transformer les "import" et "url()" en require/import pour webpack.
-        Pratique pour faire des imports sass-style (comme dans app.css)
+        Pratique pour faire des imports sass-style (comme dans app.scss)
+        - sass-loader va récupérer tout ce qui a été transformé, puis le convertir en css classique
       */
-      { test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+      { test: /\.s(a|c)ss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader'],
       },
     ],
   },
