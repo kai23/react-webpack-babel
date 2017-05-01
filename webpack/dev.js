@@ -41,10 +41,15 @@ const config = {
   // Toutes les options servant au webpack-dev-server. Toutes les
   // clefs sont dispos ici : https://webpack.js.org/configuration/dev-server/
   devServer: {
+    historyApiFallback: true,
     hot: true,
     publicPath: '/dist/',
     port: DEV_PORT,
   },
+
+  // Histoire d'avoir des erreurs dans des fichiers lisibles
+  // https://webpack.js.org/configuration/devtool/#for-development
+  devtool: 'inline-source-map',
 
 
   plugins: [
