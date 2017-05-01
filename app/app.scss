@@ -1,0 +1,27 @@
+/*
+Cet import est fait grace au "css-loader" de webpack
+Le css-loader va permettre de transformer les "@import" et les "url()"
+comme si c'étaient des require classique en JS
+*/
+@import './Home/Home.scss';
+
+$roseJungle:#ef4850;
+$roseRoger:#ff6c73;
+$roseLamute:#f8bcbf;
+$bleuJungle:#204762;
+$bleuRoger:#397395;
+$bleuLamute:#bae1fd;
+$jauneJungle:#fad170;
+$jauneRoger:#f9e07d;
+$jauneLamute:#f9edb0;
+$vertJungle:#35945d;
+$vertRoger:#63c48c;
+$vertLamute:#a2efbd;
+$grisJungle:#333333;
+$grisRoger:#404a56;
+$grisLamute:#7f8894;
+$grisJanine:#f1f1f1;
+
+body {
+    background: $vertLamute;
+}
