@@ -1,0 +1,10 @@
+/*
+Cet import est fait grace au "css-loader" de webpack
+Le css-loader va permettre de transformer les "@import" et les "url()"
+comme si c'étaient des require classique en JS
+*/
+@import './Home/Home.css';
+
+body {
+    background: red
+}
