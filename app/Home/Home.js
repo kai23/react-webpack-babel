@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Home = () => (
-  <p> Hello, Worlds ! </p>
+  <p className="pColor"> Hello, Worlds ! </p>
 );
 
 export default Home;
