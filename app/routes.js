@@ -6,9 +6,10 @@ import {
   Switch, // La première route qui match sera affichée
 } from 'react-router-dom';
 
-import Home from './Home/Home.js';
-import Contact from './Contact/Contact.js';
-import NotFound from './NotFound/NotFound.js';
+import Home from './components/Home/Home.js';
+import Contact from './components/Contact/Contact.js';
+import NotFound from './components/NotFound/NotFound.js';
+import Counter from './components/Counter/Counter.js';
 
 const Routes = () => (
   <Router>
@@ -16,6 +17,7 @@ const Routes = () => (
       <Route exact path="/" component={Home} />
       <Route path="/contact/:name" component={Contact} />
       <Route path="/contact" component={Contact} />
+      <Route path="/counter" component={Counter} />
       <Route component={NotFound} />
     </Switch>
   </Router>
