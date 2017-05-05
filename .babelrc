@@ -1,6 +1,6 @@
 {
   "presets": [
-    ["es2015", {"modules": false}],
+    ["es2015"],
     // webpack comprends déjà les "import", donc pas besoin des modules de babel
 
     "react"

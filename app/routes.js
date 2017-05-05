@@ -1,10 +1,10 @@
 import React from 'react';
 
 import {
-  BrowserRouter as Router,
+  MemoryRouter as Router,
   Route,
   Switch, // La première route qui match sera affichée
-} from 'react-router-dom';
+} from 'react-router';
 
 import Home from './components/Home/Home.js';
 import Contact from './components/Contact/Contact.js';

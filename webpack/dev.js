@@ -15,7 +15,7 @@ const config = {
     // ajoute le HMR
     // only- permet le hot reload que sur les builds qui sont réussies
 
-    path.resolve(__dirname, '..', 'app', 'index.js'),
+    path.resolve(__dirname, '..', 'app', 'client.js'),
     // Le point d'entrée de notre app
   ],
   output: {
